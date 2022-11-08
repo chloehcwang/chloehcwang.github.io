@@ -352,7 +352,9 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 .portfolio {
   padding-bottom: 100px;
 }
-.portfolio .btn:focus, .portfolio .btn:hover, .portfolio .btn.focus.active {
+.portfolio .btn:focus,
+.portfolio .btn:hover,
+.portfolio .btn.focus.active {
   box-shadow: none !important;
   outline: 0 !important;
 }
@@ -364,7 +366,8 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 .portfolio .btn-group .btn:hover {
   color: #f44336;
 }
-.portfolio .btn-group:not(:first-child) > .btn, .portfolio .btn-group > .btn:not(:first-child) {
+.portfolio .btn-group:not(:first-child) > .btn,
+.portfolio .btn-group > .btn:not(:first-child) {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
@@ -469,6 +472,10 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   color: #2f3238;
   transform: translateX(-150px);
   transition: all 0.5s;
+}
+
+.portfolio-overlay:hover {
+  cursor: pointer;
 }
 
 .portfolio-image {
