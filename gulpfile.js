@@ -43,10 +43,10 @@ gulp.task("html:build", function () {
     )
     .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
+    WEBSITE: https://chloehcwang.github.io
     TWITTER: https://twitter.com/themefisher
     FACEBOOK: https://www.facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    GITHUB: https://github.com/chloehcwang
     `)
     )
     .pipe(gulp.dest(path.build.dirDev))
@@ -71,10 +71,10 @@ gulp.task("scss:build", function () {
     .pipe(sourcemaps.write("/"))
     .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
+    WEBSITE: https://chloehcwang.github.io
     TWITTER: https://twitter.com/themefisher
     FACEBOOK: https://www.facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    GITHUB: https://github.com/chloehcwang
     `)
     )
     .pipe(gulp.dest(path.build.dirDev + "css/"))
@@ -107,7 +107,7 @@ gulp.task("js:build", function () {
   WEBSITE: https://chloehcwang.github.io
   TWITTER: https://twitter.com/themefisher
   FACEBOOK: https://www.facebook.com/themefisher
-  GITHUB: https://github.com/themefisher/
+  GITHUB: https://github.com/chloehcwang
   `)
     )
     .pipe(gulp.dest(path.build.dirDev + "js/"))
