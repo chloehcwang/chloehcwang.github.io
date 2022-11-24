@@ -1,5 +1,5 @@
 /**
- * WEBSITE: https://themefisher.com
+ * WEBSITE: https://chloehcwang.github.io
  * TWITTER: https://twitter.com/themefisher
  * FACEBOOK: https://www.facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/

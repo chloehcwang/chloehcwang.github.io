@@ -474,10 +474,6 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   transition: all 0.5s;
 }
 
-.portfolio-overlay:hover {
-  cursor: pointer;
-}
-
 .portfolio-image {
   width: 60px;
   height: 60px;
