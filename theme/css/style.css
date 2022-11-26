@@ -771,4 +771,22 @@ textarea.form-control {
 .footer-widget a:hover {
   color: #f44336;
 }
+
+.gastric-brief-showcase {
+  width: 100%;
+  position: relative;
+}
+.gastric-brief-showcase img {
+  width: 100%;
+}
+.gastric-brief-showcase .gastric-brief-showcase-container {
+  position: absolute;
+  top: 30px;
+}
+.gastric-brief-showcase .gastric-brief-showcase-container h3 {
+  color: white;
+}
+.gastric-brief-showcase .gastric-brief-showcase-container p {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
