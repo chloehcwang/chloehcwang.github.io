@@ -789,4 +789,15 @@ textarea.form-control {
 .gastric-brief-showcase .gastric-brief-showcase-container p {
   color: white;
 }
+
+.page-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #373c6e;
+  height: 260px;
+}
+.page-banner h2 {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
