@@ -44,8 +44,8 @@ gulp.task("html:build", function () {
     .pipe(
       comments(`
     WEBSITE: https://chloehcwang.github.io
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://www.facebook.com/themefisher
+    LINEDIN: https://www.linkedin.com/in/chloe-wang-823186218/
+     
     GITHUB: https://github.com/chloehcwang
     `)
     )
@@ -72,8 +72,7 @@ gulp.task("scss:build", function () {
     .pipe(
       comments(`
     WEBSITE: https://chloehcwang.github.io
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://www.facebook.com/themefisher
+    LINEDIN: https://www.linkedin.com/in/chloe-wang-823186218/
     GITHUB: https://github.com/chloehcwang
     `)
     )
@@ -105,8 +104,7 @@ gulp.task("js:build", function () {
     .pipe(
       comments(`
   WEBSITE: https://chloehcwang.github.io
-  TWITTER: https://twitter.com/themefisher
-  FACEBOOK: https://www.facebook.com/themefisher
+  LINEDIN: https://www.linkedin.com/in/chloe-wang-823186218/
   GITHUB: https://github.com/chloehcwang
   `)
     )

@@ -804,4 +804,8 @@ textarea.form-control {
 .full-width-image {
   width: 100%;
 }
+
+.fixed-width-image {
+  max-width: 400px;
+}
 /*# sourceMappingURL=style.css.map */
