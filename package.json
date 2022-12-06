@@ -1,8 +1,8 @@
 {
-  "name": "thomson",
+  "name": "Chloe wang designer",
   "version": "1.0.0",
-  "description": "thomson free bootstrap portfolio template",
-  "author": "Themefisher",
+  "description": "Chloe wang personal website",
+  "author": "Chloe Wang",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
