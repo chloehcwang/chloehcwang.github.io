@@ -546,6 +546,10 @@ ul.dropdown-menu > li > a:hover,
   color: #000;
 }
 
+.outside-section {
+  background: #fdf9f2;
+}
+
 .profile-image {
   max-width: 300px;
 }
@@ -554,11 +558,19 @@ ul.dropdown-menu > li > a:hover,
   background: #fdf9f2;
 }
 
+.personal-image {
+  width: 300px;
+}
+
 .color-indicator {
   position: absolute;
   left: -10px;
   width: 6px;
   height: 40px;
+}
+
+.color-indicator.pink {
+  background: #ff7676;
 }
 
 .color-indicator.brown {
