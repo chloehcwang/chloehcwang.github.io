@@ -554,6 +554,25 @@ ul.dropdown-menu > li > a:hover,
   background: #fdf9f2;
 }
 
+.color-indicator {
+  position: absolute;
+  left: -10px;
+  width: 6px;
+  height: 40px;
+}
+
+.color-indicator.brown {
+  background: #aba08f;
+}
+
+.color-indicator.grey {
+  background: #8b949d;
+}
+
+.color-indicator.blue {
+  background: #466a8b;
+}
+
 @media (max-width: 575px) {
   .cta {
     padding-bottom: 0px;
