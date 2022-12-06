@@ -1,15 +1,13 @@
-.footer{
-	padding: 60px 0px;
-	background: $black;
+.footer {
+  padding: 0;
+  background: $black;
 }
-.footer-widget{
-
-	a{
-		color: rgba(255,255,255,.5);
-		text-transform: capitalize;
-		&:hover{
-			color: $primary-color;
-		}
-	}
+.footer-widget {
+  a {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: capitalize;
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
-	
