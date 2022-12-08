@@ -817,4 +817,34 @@ textarea.form-control {
 .fixed-width-image {
   max-width: 400px;
 }
+
+.section-header {
+  background: #222222;
+}
+
+.gallery-container {
+  width: 80%;
+  -moz-column-count: 4;
+       column-count: 4;
+  margin: 0 auto;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  margin: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    -moz-column-count: 3;
+         column-count: 3;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .container {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+}
 /*# sourceMappingURL=style.css.map */
