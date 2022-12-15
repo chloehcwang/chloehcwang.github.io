@@ -1,8 +1,7 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
+ * WEBSITE: https://chloehcwang.github.io
+ * LINEDIN: https://www.linkedin.com/in/chloe-wang-823186218/
+ * GITHUB: https://github.com/chloehcwang
  */
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,600,700|Work+Sans:400,700,800");
@@ -621,6 +620,10 @@ textarea.form-control {
 
 .text-black {
   color: #000;
+}
+
+.resume-image {
+  max-width: 70px;
 }
 
 .contact-title h2 {
