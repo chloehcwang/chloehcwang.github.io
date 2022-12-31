@@ -854,4 +854,10 @@ textarea.form-control {
          column-count: 2;
   }
 }
+.life {
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-image: url("../../images/gallery/life/life.jpg");
+}
 /*# sourceMappingURL=style.css.map */
