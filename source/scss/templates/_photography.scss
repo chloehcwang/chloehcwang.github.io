@@ -1,36 +1,40 @@
 .life {
-    position: relative;
+  position: relative;
 }
 
 .cover-image {
-    width: 100%;
-    height: 100%;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .cover-image img {
-    width: 100%;
-    height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .gallery-life-shooting {
-    position: absolute;
-    right: 0;
-    top: -150px;
+  position: absolute;
+  right: 0;
+  top: -150px;
 }
 
 .gallery-wrapper {
-    width: 100%;
-    padding: 300px 0;
+  width: 100%;
+  padding: 300px 0;
 }
 
 .gallery-thanks {
-    width: 80%;
+  width: 80%;
 }
 
 .thanks {
-    padding: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-padding-5 {
+  padding-bottom: 100px !important;
 }
