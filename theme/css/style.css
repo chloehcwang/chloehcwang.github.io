@@ -907,6 +907,14 @@ textarea.form-control {
   background: #e6eff3;
 }
 
+.headerbg {
+  width: 500px;
+  height: 0px;
+  border-bottom: 1000px solid #3577a1;
+  border-left: 250px solid transparent;
+  rotate: 270deg;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
