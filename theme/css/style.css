@@ -909,8 +909,10 @@ textarea.form-control {
 
 .headerbg {
   width: 100%;
-  height: 817px;
-  background: linear-gradient(to right, #709ebb, #2f5371);
+  height: 600px;
+  overflow: hidden;
+  background: linear-gradient(to right, #709ebb, hsl(207deg, 41%, 31%));
+  border-bottom: 200px solid linear-gradient(to top right, #fff 0%, #fff 50%, #709ebb 50%, #2f5474 100%);
 }
 
 .left-section {
@@ -923,6 +925,12 @@ textarea.form-control {
 .left-section h3 {
   padding-top: 20px;
   color: white;
+}
+
+.triangle {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top right, #fff 0%, #fff 50%, #709ebb 50%, #2f5474 100%);
 }
 
 .page-banner {
