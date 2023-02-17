@@ -29,3 +29,17 @@
     #2f5474 100%
   );
 }
+
+.pb-important {
+  color: #b51a17;
+}
+
+.pb-highlight-image {
+  max-width: 400px;
+}
+
+.pb-image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

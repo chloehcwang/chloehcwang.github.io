@@ -933,6 +933,20 @@ textarea.form-control {
   background: linear-gradient(to top right, #fff 0%, #fff 50%, #709ebb 50%, #2f5474 100%);
 }
 
+.pb-important {
+  color: #b51a17;
+}
+
+.pb-highlight-image {
+  max-width: 400px;
+}
+
+.pb-image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
