@@ -43,3 +43,28 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.highlight-section {
+  display: flex;
+  align-items: center;
+  img {
+    position: absolute;
+    width: 30px;
+    left: -40px;
+  }
+  span {
+    color: black;
+  }
+}
+
+.transition-img {
+  width: 150px;
+}
+
+.pb-image-transition {
+  display: flex;
+  align-items: center;
+}
+.before-crossed {
+  text-decoration: line-through;
+}

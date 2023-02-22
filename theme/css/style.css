@@ -947,6 +947,32 @@ textarea.form-control {
   justify-content: center;
 }
 
+.highlight-section {
+  display: flex;
+  align-items: center;
+}
+.highlight-section img {
+  position: absolute;
+  width: 30px;
+  left: -40px;
+}
+.highlight-section span {
+  color: black;
+}
+
+.transition-img {
+  width: 150px;
+}
+
+.pb-image-transition {
+  display: flex;
+  align-items: center;
+}
+
+.before-crossed {
+  text-decoration: line-through;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
