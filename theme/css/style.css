@@ -973,6 +973,14 @@ textarea.form-control {
   text-decoration: line-through;
 }
 
+.simplified-img {
+  width: 350px;
+}
+
+.image-category {
+  max-width: 750px;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
