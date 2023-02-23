@@ -89,9 +89,28 @@
 }
 .pbtech-experience {
   background: #f6fafe;
+  position: relative;
   &-image {
     img {
       max-width: 800px;
     }
+  }
+  &-image-2 {
+    position: absolute;
+    width: 120px;
+    top: 40px;
+    left: 0;
+  }
+  &-image-3 {
+    position: absolute;
+    width: 120px;
+    top: 140px;
+    right: 0;
+  }
+  &-image-4 {
+    position: absolute;
+    width: 180px;
+    top: -40px;
+    right: 20px;
   }
 }

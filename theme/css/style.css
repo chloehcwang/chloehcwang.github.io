@@ -998,9 +998,28 @@ textarea.form-control {
 
 .pbtech-experience {
   background: #f6fafe;
+  position: relative;
 }
 .pbtech-experience-image img {
   max-width: 800px;
+}
+.pbtech-experience-image-2 {
+  position: absolute;
+  width: 120px;
+  top: 40px;
+  left: 0;
+}
+.pbtech-experience-image-3 {
+  position: absolute;
+  width: 120px;
+  top: 140px;
+  right: 0;
+}
+.pbtech-experience-image-4 {
+  position: absolute;
+  width: 180px;
+  top: -40px;
+  right: 20px;
 }
 
 .page-banner {
