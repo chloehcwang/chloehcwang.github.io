@@ -1022,6 +1022,10 @@ textarea.form-control {
   right: 20px;
 }
 
+.pbtech-discover-behaviours-image img {
+  max-width: 800px;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
