@@ -1026,6 +1026,18 @@ textarea.form-control {
   max-width: 800px;
 }
 
+.pbtech-prototype-design-system {
+  background: #214f74;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.pbtech-prototype-design-system img {
+  float: right;
+  height: 100%;
+  max-width: 1300px;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
