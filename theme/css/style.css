@@ -1058,6 +1058,21 @@ textarea.form-control {
   max-width: 700px;
 }
 
+.pbtech-reflection {
+  width: 100%;
+  background: #3577a1;
+}
+.pbtech-reflection h3 {
+  color: white;
+}
+.pbtech-reflection p {
+  color: white;
+}
+.pbtech-reflection small {
+  color: white;
+  width: 100%;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
