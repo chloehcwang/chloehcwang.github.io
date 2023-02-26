@@ -1038,6 +1038,10 @@ textarea.form-control {
   max-width: 1300px;
 }
 
+.pbtech-test-iteration-content-stats {
+  color: #3577a1;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
