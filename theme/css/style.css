@@ -1025,8 +1025,12 @@ textarea.form-control {
   right: 20px;
 }
 
+.pbtech-define-examples-image img {
+  width: 100%;
+}
+
 .pbtech-discover-behaviours-image img {
-  max-width: 800px;
+  width: 100%;
 }
 
 .pbtech-prototype-design-system {
@@ -1043,6 +1047,7 @@ textarea.form-control {
 
 .pbtech-define-insight-image img {
   max-width: 600px;
+  width: 100%;
 }
 
 .pbtech-test-iteration-content-stats {
