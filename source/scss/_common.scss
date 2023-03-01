@@ -193,6 +193,13 @@ a {
   border-radius: 0.5em;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  p {
+    color: #252b33;
+  }
+}
+
 @include mobile {
   h2,
   .h2 {

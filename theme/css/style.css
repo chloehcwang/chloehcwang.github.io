@@ -260,6 +260,13 @@ a:hover {
   border-radius: 0.5em;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+body p {
+  color: #252b33;
+}
+
 @media (max-width: 575px) {
   h2,
   .h2 {
@@ -907,13 +914,6 @@ textarea.form-control {
   background: #e6eff3;
 }
 
-.headerbg {
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  background: linear-gradient(to right, #709ebb, hsl(207deg, 41%, 31%));
-}
-
 .left-section {
   padding-top: 200px;
   left: 100px;
@@ -926,10 +926,27 @@ textarea.form-control {
   color: white;
 }
 
-.triangle {
+.pbtech-logo {
+  max-width: 300px;
+}
+
+.pbtech-laptop {
   width: 100%;
-  height: 200px;
-  background: linear-gradient(to top right, #fff 0%, #fff 50%, #709ebb 50%, #2f5474 100%);
+}
+@media only screen and (max-width: 1200px) {
+  .pbtech-laptop {
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .pbtech-laptop {
+    padding-top: 200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .pbtech-laptop {
+    display: none;
+  }
 }
 
 .pb-important {
