@@ -983,6 +983,18 @@ textarea.form-control {
   color: black;
 }
 
+.bg-large-text {
+  font-size: 180px;
+  color: rgba(77, 153, 198, 0.08);
+  position: absolute;
+  left: -100px;
+}
+@media only screen and (max-width: 850px) {
+  .bg-large-text {
+    display: none;
+  }
+}
+
 .transition-img {
   width: 150px;
 }
