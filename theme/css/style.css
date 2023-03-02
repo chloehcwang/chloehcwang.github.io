@@ -985,6 +985,7 @@ textarea.form-control {
 
 .bg-large-text {
   font-size: 180px;
+  font-weight: bold;
   color: rgba(77, 153, 198, 0.08);
   position: absolute;
   left: -100px;
