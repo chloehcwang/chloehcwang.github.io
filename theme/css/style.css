@@ -902,7 +902,7 @@ textarea.form-control {
   position: absolute;
   top: 30px;
 }
-.gastric-brief-showcase .gastric-brief-showcase-container h3 {
+.gastric-brief-showcase .gastric-brief-showcase-container h2 {
   color: white;
 }
 .gastric-brief-showcase .gastric-brief-showcase-container p {
@@ -910,7 +910,7 @@ textarea.form-control {
 }
 
 .gastric-left-section {
-  padding: 16px;
+  padding: 64px 0 0 108px;
 }
 
 .grey-bg {
