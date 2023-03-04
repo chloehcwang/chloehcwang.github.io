@@ -917,6 +917,16 @@ textarea.form-control {
   background: #e6eff3;
 }
 
+.gastric-intro h3 {
+  color: white;
+}
+.gastric-intro h4 {
+  color: white;
+}
+.gastric-intro small {
+  color: white;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
