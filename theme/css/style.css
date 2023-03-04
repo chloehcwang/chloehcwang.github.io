@@ -266,6 +266,9 @@ body {
 body p {
   color: #252b33;
 }
+body li {
+  color: #252b33;
+}
 
 @media (max-width: 575px) {
   h2,
@@ -925,6 +928,13 @@ textarea.form-control {
 }
 .gastric-intro small {
   color: white;
+}
+
+.gastric-brief-prototype {
+  background: #f7f7f6;
+}
+.gastric-brief-prototype img {
+  width: 100%;
 }
 
 .left-section {
