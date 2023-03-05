@@ -42,3 +42,21 @@
     width: 100%;
   }
 }
+
+.gastric-brief-image {
+  width: 90px;
+  position: absolute;
+  left: -100px;
+}
+
+.gastric-empathize-appexample {
+  background: #868c8f;
+  display: flex;
+  justify-content: center;
+  img {
+    max-width: 1000px;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+}

@@ -937,6 +937,26 @@ textarea.form-control {
   width: 100%;
 }
 
+.gastric-brief-image {
+  width: 90px;
+  position: absolute;
+  left: -100px;
+}
+
+.gastric-empathize-appexample {
+  background: #868c8f;
+  display: flex;
+  justify-content: center;
+}
+.gastric-empathize-appexample img {
+  max-width: 1000px;
+}
+@media (max-width: 1000px) {
+  .gastric-empathize-appexample img {
+    width: 100%;
+  }
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
