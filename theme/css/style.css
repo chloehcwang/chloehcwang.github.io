@@ -956,6 +956,15 @@ textarea.form-control {
     width: 100%;
   }
 }
+.gastric-empathize-appexample-content {
+  max-width: 700px;
+}
+.gastric-empathize-appexample-content h3 {
+  color: #fff;
+}
+.gastric-empathize-appexample-content p {
+  color: #fff;
+}
 
 .left-section {
   padding-top: 200px;
