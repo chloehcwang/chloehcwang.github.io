@@ -75,7 +75,7 @@
 
 .pb-image-transition {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .before-crossed {
   text-decoration: line-through;
@@ -97,7 +97,6 @@
 }
 .blue-text {
   color: #3577a1;
-  font-style: italic;
 }
 .pbtech-experience {
   background: #f6fafe;

@@ -1051,7 +1051,7 @@ textarea.form-control {
 
 .pb-image-transition {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .before-crossed {
@@ -1078,7 +1078,6 @@ textarea.form-control {
 
 .blue-text {
   color: #3577a1;
-  font-style: italic;
 }
 
 .pbtech-experience {
