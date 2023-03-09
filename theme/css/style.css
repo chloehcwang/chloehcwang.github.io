@@ -270,6 +270,17 @@ body li {
   color: #252b33;
 }
 
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 575px) {
   h2,
   .h2 {
@@ -1096,7 +1107,7 @@ textarea.form-control {
 .pbtech-experience-image-3 {
   position: absolute;
   width: 120px;
-  top: 140px;
+  top: 300px;
   right: 0;
 }
 .pbtech-experience-image-4 {

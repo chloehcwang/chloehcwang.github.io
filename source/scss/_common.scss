@@ -203,6 +203,17 @@ body {
   }
 }
 
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @include mobile {
   h2,
   .h2 {
