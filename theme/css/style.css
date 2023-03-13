@@ -1046,7 +1046,7 @@ textarea.form-control {
 .bg-large-text {
   font-size: 180px;
   font-weight: bold;
-  color: rgba(77, 153, 198, 0.08);
+  color: rgba(77, 153, 198, 0.15);
   position: absolute;
   left: -100px;
 }
@@ -1100,19 +1100,19 @@ textarea.form-control {
 }
 .pbtech-experience-image-2 {
   position: absolute;
-  width: 120px;
+  width: 240px;
   top: 40px;
   left: 0;
 }
 .pbtech-experience-image-3 {
   position: absolute;
-  width: 120px;
+  width: 140px;
   top: 300px;
   right: 0;
 }
 .pbtech-experience-image-4 {
   position: absolute;
-  width: 180px;
+  width: 230px;
   top: -40px;
   right: 20px;
 }
