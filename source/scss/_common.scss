@@ -214,6 +214,10 @@ body {
   justify-content: center;
 }
 
+.nav-header-full {
+  width: 100%;
+}
+
 @include mobile {
   h2,
   .h2 {
