@@ -1187,6 +1187,10 @@ textarea.form-control {
   width: 100%;
 }
 
+.progress-image img {
+  width: 100%;
+}
+
 .page-banner {
   display: flex;
   align-items: center;
