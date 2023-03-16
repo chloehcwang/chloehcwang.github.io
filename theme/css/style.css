@@ -935,11 +935,12 @@ textarea.form-control {
   background: #e6eff3;
 }
 
-.gastric-intro h3 {
+.gastric-intro h2 {
   color: white;
 }
 .gastric-intro h4 {
   color: white;
+  line-height: 2;
 }
 .gastric-intro small {
   color: white;
@@ -979,6 +980,19 @@ textarea.form-control {
 }
 .gastric-empathize-appexample-content p {
   color: #fff;
+}
+
+.gastric-gallery-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gastric-gallery-set img {
+  width: 100%;
+}
+.gastric-gallery-set h3 {
+  margin-top: -30px;
 }
 
 .left-section {

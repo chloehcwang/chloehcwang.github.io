@@ -25,11 +25,12 @@
 }
 
 .gastric-intro {
-  h3 {
+  h2 {
     color: white;
   }
   h4 {
     color: white;
+    line-height: 2;
   }
   small {
     color: white;
@@ -67,5 +68,18 @@
     p {
       color: #fff;
     }
+  }
+}
+
+.gastric-gallery-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+  h3 {
+    margin-top: -30px;
   }
 }
