@@ -32,6 +32,13 @@
         // add padding top to show content behind navbar
         navbar_height = document.querySelector(".navbar").offsetHeight;
         document.body.style.paddingTop = navbar_height + "px";
+
+        // nav item list
+        const navList = [
+          { id: 1, value: "pb_heading_discover" },
+          { id: 2, value: "pb_heading_define" },
+          { id: 3, value: "pb_heading_ideation" },
+        ];
       } else {
         // pbtech page
         document.getElementById("navbar-pbtech").classList.remove("fixed-top");
