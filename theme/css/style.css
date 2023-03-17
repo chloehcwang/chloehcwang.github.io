@@ -995,6 +995,10 @@ textarea.form-control {
   margin-top: -30px;
 }
 
+.gastric-whiteboard {
+  width: 100%;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
