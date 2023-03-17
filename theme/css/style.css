@@ -999,6 +999,17 @@ textarea.form-control {
   width: 100%;
 }
 
+.gastric-whiteboard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondary-section {
+  background: #f6f7f9;
+  border-radius: 10px;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
