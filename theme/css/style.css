@@ -1010,6 +1010,10 @@ textarea.form-control {
   border-radius: 10px;
 }
 
+.gastric-analysis {
+  background: #f6f7f9;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
