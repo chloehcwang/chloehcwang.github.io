@@ -131,3 +131,20 @@
     width: 180px;
   }
 }
+
+.gastric-review-img {
+  width: 75px;
+  height: 65px;
+  &-full {
+    height: 150px;
+  }
+  &-round {
+    height: 75px;
+  }
+}
+
+.tick {
+  &-lg {
+    width: 60px;
+  }
+}

@@ -1043,6 +1043,21 @@ textarea.form-control {
   width: 180px;
 }
 
+.gastric-review-img {
+  width: 75px;
+  height: 65px;
+}
+.gastric-review-img-full {
+  height: 150px;
+}
+.gastric-review-img-round {
+  height: 75px;
+}
+
+.tick-lg {
+  width: 60px;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;
