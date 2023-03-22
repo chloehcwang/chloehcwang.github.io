@@ -1014,6 +1014,35 @@ textarea.form-control {
   background: #f6f7f9;
 }
 
+.gastric-liane {
+  width: 260px;
+  position: absolute;
+  left: -200px;
+}
+.gastric-liane-small {
+  width: 180px;
+}
+
+.gastric-peyton {
+  width: 260px;
+  position: absolute;
+  right: -200px;
+  top: 200px;
+}
+.gastric-peyton-small {
+  width: 180px;
+}
+
+.gastric-elliot {
+  width: 260px;
+  position: absolute;
+  left: -230px;
+  top: 300px;
+}
+.gastric-elliot-small {
+  width: 180px;
+}
+
 .left-section {
   padding-top: 200px;
   left: 100px;

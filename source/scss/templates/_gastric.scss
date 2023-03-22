@@ -102,3 +102,32 @@
 .gastric-analysis {
   background: #f6f7f9;
 }
+
+.gastric-liane {
+  width: 260px;
+  position: absolute;
+  left: -200px;
+  &-small {
+    width: 180px;
+  }
+}
+
+.gastric-peyton {
+  width: 260px;
+  position: absolute;
+  right: -200px;
+  top: 200px;
+  &-small {
+    width: 180px;
+  }
+}
+
+.gastric-elliot {
+  width: 260px;
+  position: absolute;
+  left: -230px;
+  top: 300px;
+  &-small {
+    width: 180px;
+  }
+}
