@@ -218,6 +218,14 @@ body {
   width: 100%;
 }
 
+.text-crossed-out {
+  text-decoration: line-through;
+}
+
+.bd-highlight {
+  background: #afd0e0;
+}
+
 @include mobile {
   h2,
   .h2 {

@@ -285,6 +285,14 @@ body li {
   width: 100%;
 }
 
+.text-crossed-out {
+  text-decoration: line-through;
+}
+
+.bd-highlight {
+  background: #afd0e0;
+}
+
 @media (max-width: 575px) {
   h2,
   .h2 {
@@ -1057,6 +1065,109 @@ textarea.form-control {
 .tick-lg {
   width: 60px;
 }
+.tick-sm {
+  width: 25px;
+}
+
+.grey-container {
+  background: #edf1f6;
+  padding: 32px;
+}
+
+.gastric-prev-image img {
+  width: 440px;
+}
+
+.gastric-downward img {
+  width: 100px;
+}
+
+.gastric-next-image {
+  position: relative;
+}
+.gastric-next-image > img {
+  width: 500px;
+}
+.gastric-next-image .gastric-symptom-first-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 100px;
+  top: 100px;
+}
+.gastric-next-image .gastric-symptom-first-section h4 {
+  width: 200px;
+  padding: 20px;
+}
+.gastric-next-image .gastric-symptom-first-section > img {
+  width: 200px;
+  height: 3px;
+}
+.gastric-next-image .gastric-symptom-second-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 100px;
+  top: 400px;
+}
+.gastric-next-image .gastric-symptom-second-section h4 {
+  width: 200px;
+  padding: 20px;
+}
+.gastric-next-image .gastric-symptom-second-section > img {
+  width: 200px;
+  height: 3px;
+}
+.gastric-next-image .gastric-symptom-third-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 50px;
+  top: 200px;
+}
+.gastric-next-image .gastric-symptom-third-section h4 {
+  width: 200px;
+  padding: 20px;
+}
+.gastric-next-image .gastric-symptom-third-section > img {
+  width: 200px;
+  height: 3px;
+}
+.gastric-next-image .gastric-symptom-fourth-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 50px;
+  top: 450px;
+}
+.gastric-next-image .gastric-symptom-fourth-section h4 {
+  width: 200px;
+  padding: 20px;
+}
+.gastric-next-image .gastric-symptom-fourth-section > img {
+  width: 200px;
+  height: 3px;
+}
+.gastric-next-image .gastric-symptom-fifth-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 50px;
+  top: 600px;
+}
+.gastric-next-image .gastric-symptom-fifth-section h4 {
+  width: 200px;
+  padding: 20px;
+}
+.gastric-next-image .gastric-symptom-fifth-section > img {
+  width: 200px;
+  height: 3px;
+}
 
 .left-section {
   padding-top: 200px;
@@ -1249,17 +1360,21 @@ textarea.form-control {
   background: #f6fafe;
 }
 
-.pbtech-reflection {
+.blue-container {
   width: 100%;
+  padding: 60px;
   background: #3577a1;
 }
-.pbtech-reflection h3 {
+.blue-container h3 {
   color: white;
 }
-.pbtech-reflection p {
+.blue-container p {
   color: white;
 }
-.pbtech-reflection small {
+.blue-container li {
+  color: white;
+}
+.blue-container small {
   color: white;
   width: 100%;
 }

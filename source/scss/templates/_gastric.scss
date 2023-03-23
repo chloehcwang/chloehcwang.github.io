@@ -147,4 +147,71 @@
   &-lg {
     width: 60px;
   }
+  &-sm {
+    width: 25px;
+  }
+}
+
+.grey-container {
+  background: #edf1f6;
+  padding: 32px;
+}
+.gastric-prev-image {
+  img {
+    width: 440px;
+  }
+}
+.gastric-downward {
+  img {
+    width: 100px;
+  }
+}
+
+@mixin symptom-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    width: 200px;
+    padding: 20px;
+  }
+  > img {
+    width: 200px;
+    height: 3px;
+  }
+}
+
+.gastric-next-image {
+  position: relative;
+  > img {
+    width: 500px;
+  }
+  .gastric-symptom {
+    &-first-section {
+      @include symptom-section;
+      left: 100px;
+      top: 100px;
+    }
+    &-second-section {
+      @include symptom-section;
+      left: 100px;
+      top: 400px;
+    }
+    &-third-section {
+      @include symptom-section;
+      right: 50px;
+      top: 200px;
+    }
+    &-fourth-section {
+      @include symptom-section;
+      right: 50px;
+      top: 450px;
+    }
+    &-fifth-section {
+      @include symptom-section;
+      right: 50px;
+      top: 600px;
+    }
+  }
 }
