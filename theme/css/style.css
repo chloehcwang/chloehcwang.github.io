@@ -237,7 +237,8 @@ a:hover {
 }
 
 .carousel-img {
-  width: 100%;
+  width: 600px;
+  height: 320px;
 }
 
 .dot:hover,
