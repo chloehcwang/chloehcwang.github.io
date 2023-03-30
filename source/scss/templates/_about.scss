@@ -71,6 +71,12 @@
   background: #466a8b;
 }
 
+.about-me-section {
+  img {
+    border-radius: 16px;
+  }
+}
+
 @include mobile {
   .cta {
     padding-bottom: 0px;

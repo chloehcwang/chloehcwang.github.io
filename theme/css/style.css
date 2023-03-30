@@ -718,6 +718,10 @@ ul.dropdown-menu > li > a:hover,
   background: #466a8b;
 }
 
+.about-me-section img {
+  border-radius: 16px;
+}
+
 @media (max-width: 575px) {
   .cta {
     padding-bottom: 0px;
